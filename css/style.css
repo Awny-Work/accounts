@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F0F0F7;
+}
+.landing {
+    background-color: white;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 4px 0px #e7e7e7;
+
+}
+
+.landing .info {
+    color: #43425D;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.landing .info h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* start statictis */
+.statictis {
+    direction: rtl;
+}
+
+.statictis .content {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.statictis .content.one {
+    background-color: #7D00B5;
+}
+.statictis .content.two {
+    background-color: #39D5CF;
+}.statictis .content.three {
+    background-color: #7033FF;
+}.statictis .content.four {
+    background-color: #FF007C;
+}
+.statictis .content .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.statictis .content .allLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statictis .content .allLinks .Links {
+    flex-basis: 50%;
+}
+
+.statictis .content .allLinks .Links .Link {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statictis .content .allLinks .Links .Link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    /* padding: 10px; */
+}
+
+.statictis .content .allLinks .Links .Link span {
+    position: relative;
+    font-weight: bold;
+    color: #005A95;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.statictis .content .allLinks .Links .Link span::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 1px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+/* start number_container */
+.number_container {
+    padding: 50px 0;
+    direction: rtl;
+}
+
+.number_container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 4px 0px #e7e7e7;
+    margin: 10px 0;
+}
+
+.number_container .content .info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.number_container .content .info .D_icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.number_container .content.one .info .D_icon {
+    border: 1px solid #4AD991;
+}
+.number_container .content.one .info .D_icon i  {
+    color: #4AD991;
+}
+.number_container .content.one  .number_section {
+    color: #4AD991;
+}
+
+.number_container .content.two .info .D_icon {
+    border: 1px solid #A4A1FB;
+}
+.number_container .content.two .info .D_icon i  {
+    color: #A4A1FB;
+}
+.number_container .content.two  .number_section {
+    color: #A4A1FB;
+}
+.number_container .content.three .info .D_icon {
+    border: 1px solid #56D9FE;
+}
+.number_container .content.three .info .D_icon i  {
+    color: #56D9FE;
+}
+.number_container .content.three  .number_section {
+    color: #56D9FE;
+}
+
+.number_container .content .info .D_icon i {
+    font-size: 20px;
+}
+
+
+.number_container .menu_Icon {
+    color: #b3b3b3;
+}
+.number_container .menu_Icon i {
+    font-size: 20px;
+}
+/* start Selling */
+.selling_container  {
+    padding: 50px 0 20px;
+    direction: rtl;
+}
+.selling_container .content {
+    background-color: white;
+    box-shadow: 0 0 4px 0px #e7e7e7;
+    padding: 20px;
+}
+.Selling_header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selling_container .Selling_header .sell_num_cont{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.selling_container .Selling_header .sell_num_cont p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.dropdown-toggle {
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selling_container .image_container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.selling_container .image_container img {
+    width: 100%;
+}
+
+/*  start staticts_one */
+
+.staticts_one {
+    direction: rtl;
+}
+.staticts_one .content {
+    background-color: white;
+    box-shadow: 0 0 4px 0px #e7e7e7;
+    padding: 20px;
+}
+
+.staticts_one .content .Selling_header .sell_num_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.staticts_one .content .Selling_header .sell_num_cont .Sell_num {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.staticts_one .content .Selling_header .sell_num_cont .Sell_num  p {
+    margin:  0;
+}
+.staticts_one .content .Selling_header .sell_num_cont .Sell_num span {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4AD991;
+    border-radius: 50%;
+    display: block;
+}
+.staticts_one .content .process_bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.staticts_one .content  .image_container img {
+    margin-top: 10px;
+    width: 100%;
+} 
+.staticts_one .content .Image_process{
+   padding: 10px 0;
+}
+.staticts_one .content .Image_process .row{
+    justify-content: space-around;
+   
+}
+.staticts_one .content .Image_process .process_bar {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.staticts_one .content .Image_process .process_bar .process_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.staticts_one .content .Image_process .process_bar .progress {
+    direction: ltr;
+}
+.staticts_one .content .Image_process .process_bar .process {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b3b3b3;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+/* .staticts_one .content .Image_process .image_container  {
+    flex-basis: 65%;
+} */
+/* .staticts_one .content .Image_process .image_container img {
+    
+} */
+/*  start staticts_two */
+.staticts_two {
+    direction: rtl;
+    margin: 50px 0;
+}
+.staticts_two .content {
+    background-color: white;
+    box-shadow: 0 0 4px 0px #e7e7e7;
+    padding: 20px;
+}
+.staticts_two .content .image_container {
+    margin-top: 20px;
+}
+.staticts_two .content .header2 {
+    /* margin-bottom: 10px; */
+    /* padding: 10px ; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b3b3b3;
+}
+.staticts_two .content .image_container {
+    padding: 20px 0;
+    text-align: center;
+}
+.staticts_two .content .section2  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.staticts_two .content .section2 {
+
+}
+.staticts_two  .section2 .info {
+    padding: 10px;
+}
+.staticts_two  .section2 .info h3 {
+    position: relative;
+}
+.staticts_two  .section2 .info h3::before {
+    content: '';
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #A4A1FB;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+}
+.staticts_two  .Link {
+    text-align: center;
+    border-top: 1px solid #b3b3b3;
+    padding: 10px;
+}
+.staticts_two  .Link a {
+    color: #A4A1FB;
+    /* text-decoration: none; */
+    font-weight: bold;
+    font-size: 22px;
+
+}
+/*  start section_three */
+.section_three{
+    direction: rtl;
+}
+.section_three .content {
+    background-color: white;
+    box-shadow: 0 0 4px 0px #e7e7e7;
+    padding: 20px 30px;
+}
+.section_three .content .heading {
+    color: #005A95;
+}
+.section_three .content .Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 25%;
+}
+.section_three .content .Links p {
+    margin:  0;
+    padding: 10px 20px;
+    color: #005A95;
+    font-weight: bold;
+    border: 1px solid #005A95;
+}
+.section_three .content .image_container {
+    text-align: center;
+}
